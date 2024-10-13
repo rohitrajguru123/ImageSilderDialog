@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">976838826261-t97r9eitra47s15k25k9tm2muh23je8t.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">976838826261</string>
+    <string name="google_api_key" translatable="false">AIzaSyBqBEsByAPyZpVquGxF0H6FPt71g8g9FFA</string>
+    <string name="google_app_id" translatable="false">1:976838826261:android:85c07dac151b919797311c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBqBEsByAPyZpVquGxF0H6FPt71g8g9FFA</string>
+    <string name="google_storage_bucket" translatable="false">parking-apps-74ccb.appspot.com</string>
+    <string name="project_id" translatable="false">parking-apps-74ccb</string>
+</resources>

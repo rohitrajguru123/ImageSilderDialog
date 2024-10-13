@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkingApp">
+        <activity
+            android:name="in.soniya.parkingapp.profile.Dev_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Darsh_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Aadi_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Anup_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Amit_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Abhishek_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.profile.Abhay_Singh_profile"
+            android:exported="true" />
+        <activity
+            android:name="in.soniya.parkingapp.home.payment_page"
+            android:exported="true" />
+        <activity android:name="in.soniya.parkingapp.home.Detail_page" />
+        <activity android:name="in.soniya.parkingapp.home.parking_pages" />
+        <activity android:name="in.soniya.parkingapp.home.parking_status_page" />
+        <activity android:name="in.soniya.parkingapp.home.test" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="in.soniya.parkingapp.home.google_map"
+            android:label="@string/title_activity_google_map" />
+        <activity android:name="in.soniya.parkingapp.home.parking_manual" />
+        <activity android:name="in.soniya.parkingapp.home.QrActivity" />
+        <activity android:name="in.soniya.parkingapp.home.location_area" />
+        <activity android:name="in.soniya.parkingapp.home.userdetail" />
+        <activity android:name="in.soniya.parkingapp.home.booking" />
+        <activity android:name="in.soniya.parkingapp.login.forgetpass" />
+        <activity android:name="in.soniya.parkingapp.login.LoginandregisterActivity" />
+        <activity android:name="in.soniya.parkingapp.login.RegisterActivity" />
+        <activity android:name="in.soniya.parkingapp.login.LoginActivity" />
+        <activity android:name="in.soniya.parkingapp.home.HomeActivity" />
+        <activity android:name="in.soniya.parkingapp.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
